@@ -4,9 +4,22 @@
   "description": "An Express MVC app",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Lijuan Cao",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "luxon": "^3.5.0",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.1.9"
+  }
 }
